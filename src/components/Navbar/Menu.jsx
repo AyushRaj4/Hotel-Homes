@@ -41,7 +41,7 @@ const Menu = () => {
         <span className="menu-span">Login</span>
       </div>
       <div className="box">
-        <span className="menu-span">Airbnb your home</span>
+        <span className="menu-span">Book your home</span>
         <span className="menu-span">Host an experience</span>
         <span className="menu-span">Help centre</span>
       </div>

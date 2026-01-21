@@ -1,4 +1,4 @@
-import { SiAirbnb } from "react-icons/si";
+import { TbHomeHeart } from "react-icons/tb";
 import { TbWorld } from "react-icons/tb";
 import { HiBars3 } from "react-icons/hi2";
 import { FaUserCircle } from "react-icons/fa";
@@ -12,9 +12,10 @@ const Navtop = ({ showMenu, setShowMenu }) => {
     <div className="nav-top">
       <div className="logo-container">
         <a href="https://www.airbnb.co.in/" className="airbnb-icon">
-          <SiAirbnb />
+          {/* <SiAirbnb /> */}
+          <TbHomeHeart size={40} color="#ff385c" />
         </a>
-        <span className="logo-name">airbnb</span>
+        <span className="logo-name">hotelhomes</span>
       </div>
       <div className="tabs-container tabs-container2">
         <button
@@ -31,7 +32,9 @@ const Navtop = ({ showMenu, setShowMenu }) => {
         </button>
       </div>
       <div className="nav-top-right">
-        <span style={{fontWeight: "500", letterSpacing: "-.5px"}}>Airbnb your home</span>
+        <span style={{ fontWeight: "500", letterSpacing: "-.5px" }}>
+          Book your home
+        </span>
         <button className="world-btn">
           <TbWorld className="world-icon" />
         </button>
